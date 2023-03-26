@@ -1,0 +1,25 @@
+[
+    {
+        "gender":"male",
+        "firstName":"name1",
+        "lastName":"name1",
+        "email":"mocktest11@gmail.com",
+        "password" :"password11"
+    }
+    ,
+    {
+        "gender":"female",
+        "firstName":"name2",
+        "lastName":"name2",
+        "email":"mocktest22@gmail.com",
+        "password" :"password12"
+    }
+    ,
+    {
+        "gender":"male",
+        "firstName":"name3",
+        "lastName":"name3",
+        "email":"mocktest33@gmail.com",
+        "password" :"password13"
+    }
+]

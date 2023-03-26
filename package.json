@@ -1,0 +1,21 @@
+{
+  "name": "mockproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "register":"npx playwright test tests/Register.spec.js",
+    "login":"npx playwright test tests/Login.spec.js",
+    "cart":"npx playwright test tests/Cart.spec.js",
+    "e2e":"npx playwright test tests/EndtoEnd.spec.js",
+
+    "showReport":"npx playwright show-report"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.27.1"
+  }
+}
