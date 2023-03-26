@@ -88,7 +88,7 @@ const config = {
       name: 'Microsoft Edge',
       use: {
         channel: 'msedge',
-        // headless:false,
+        headless:false,
         screenshot:'only-on-failure'
         
       },

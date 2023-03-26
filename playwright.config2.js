@@ -66,7 +66,6 @@ const config = {
       name: 'webkit',
       use: {
         ...devices['iPhone 11'],
-        // headless:false,
         video:'retain-on-failure',
         trace:'on'
       },

@@ -1,7 +1,7 @@
 const { CartPage } = require("./CartPage");
 const { CheckoutPage } = require("./CheckoutPage");
 const { DesktopsPage } = require("./DesktopsPage");
-const { HomePage } = require("./homePage");
+const { HomePage } = require("./HomePage");
 const { LoginPage } = require("./LoginPage");
 const { RegisterPage } = require("./RegisterPage");
 
