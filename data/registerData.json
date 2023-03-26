@@ -3,23 +3,23 @@
         "gender":"male",
         "firstName":"name1",
         "lastName":"name1",
-        "email":"mocktest11@gmail.com",
-        "password" :"password11"
+        "email":"testgithub1@gmail.com",
+        "password" :"password123"
     }
     ,
     {
         "gender":"female",
         "firstName":"name2",
         "lastName":"name2",
-        "email":"mocktest22@gmail.com",
-        "password" :"password12"
+        "email":"testgithub2@gmail.com",
+        "password" :"password123"
     }
     ,
     {
         "gender":"male",
         "firstName":"name3",
         "lastName":"name3",
-        "email":"mocktest33@gmail.com",
-        "password" :"password13"
+        "email":"testgithub3@gmail.com",
+        "password" :"password123"
     }
 ]
