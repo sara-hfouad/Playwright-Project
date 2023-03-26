@@ -14,14 +14,12 @@ class CartPage {
 
 
     async verifyProductInCart(productName) {
-        await this.products.last().waitFor();
+        await this.products.first().waitFor();
         const count = await this.products.count();
         let bool;
 
         for (let i = 0; i < count; i++) {
             var name = await this.products.nth(i).locator("a[class='product-name']").textContent();
-            console.log(name);
-
             if (name === productName) {
                 bool = "found";
                 break;
@@ -41,8 +39,6 @@ class CartPage {
         const subtotal=parseInt(subtotalString);
         const total=parseInt(totalString);
         const expected = subtotal * 0.8;
-
-        console.log(subtotal +"    "+ total+"     "+expected);
         await expect(expected).toBe(total);
     }
 

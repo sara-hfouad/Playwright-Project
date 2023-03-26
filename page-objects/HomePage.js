@@ -30,7 +30,6 @@ class HomePage {
 
         for (let i = 0; i < count; i++) {
             var name = await this.products.nth(i).locator("h2 a").textContent();
-            console.log(name);
             if (name === productName) {
                 await this.products.nth(i).locator("input").click();
                 break;
