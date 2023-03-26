@@ -76,7 +76,7 @@ npx playwright test tests/EndtoEnd.spec.js
 ## Tools and Technologies
 <ul>
   <li>Playwright Framework</li>
-  <li>Node.Js</li>
+  <li>JavaScript</li>
   <li>JSON</li>
   <li>Page Object Model</li>
 
